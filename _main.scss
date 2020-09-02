@@ -19,7 +19,7 @@ header {
                 a {
                     text-decoration: none;
                     color: $navlinkcolor;
-                    font-size: 0.85rem;
+                    font-size: 0.9rem;
                 }
                 a:hover {
                     text-decoration: underline;
@@ -42,7 +42,7 @@ header {
                 a {
                     text-decoration: none;
                     color: $navlinkcolor;
-                    font-size: 0.85rem;
+                    font-size: 0.9rem;
                     #app_fav {
                         width: 30px;
                         height: 30px;
@@ -73,5 +73,50 @@ header {
             }
             
         }
+    }
+}
+main {
+        
+    div {
+            display: flex;
+            justify-content: center;
+            margin-top: 200px;
+    }
+}       
+section {
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+        
+    div {
+        position: relative;
+        input {
+            
+            width: 450px;
+            height: 40px;
+            
+            border-radius: 25px;
+            border: 1px solid $search_inp_border;
+        }
+        input:hover {
+            box-shadow: 3px 3px 3px $search_inp_border;
+        }
+        #magicon {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            top: 9px;
+            left: 20px;
+            
+        }
+        #micro {
+            position: absolute;
+            width: 15px;
+            height: 20px;
+            top: 12px;
+            right: 20px;
+        }
+        
     }
 }

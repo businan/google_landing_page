@@ -17,7 +17,7 @@ header .header-left ul li {
 header .header-left ul li a {
   text-decoration: none;
   color: black;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 
 header .header-left ul li a:hover {
@@ -43,7 +43,7 @@ header .header-right ul li {
 header .header-right ul li a {
   text-decoration: none;
   color: black;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 
 header .header-right ul li a #app_fav {
@@ -74,5 +74,57 @@ header .header-right ul li a #sign_in:checked {
 
 header .header-right ul li a:hover {
   text-decoration: underline;
+}
+
+main div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 200px;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+section div {
+  position: relative;
+}
+
+section div input {
+  width: 450px;
+  height: 40px;
+  border-radius: 25px;
+  border: 1px solid lightgray;
+}
+
+section div input:hover {
+  -webkit-box-shadow: 3px 3px 3px lightgray;
+          box-shadow: 3px 3px 3px lightgray;
+}
+
+section div #magicon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 9px;
+  left: 20px;
+}
+
+section div #micro {
+  position: absolute;
+  width: 15px;
+  height: 20px;
+  top: 12px;
+  right: 20px;
 }
 /*# sourceMappingURL=style.css.map */
